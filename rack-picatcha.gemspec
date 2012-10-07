@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.description = %q{Rack middleware verification using Picatcha API.}
   s.email = %q{james.ayvaz@gmail.com}
   s.extra_rdoc_files = ["LICENSE", "README.md"]
-  s.files = %w{.document .gitignore LICENSE README.md Rakefile rack-picatcha.gemspec} + Dir.glob("{lib,test}/**/*")
+  s.files = %w{.gitignore LICENSE README.md Rakefile rack-picatcha.gemspec} + Dir.glob("{lib,test}/**/*")
   s.homepage = %q{http://github.com/ayvazj/rack-picatcha}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
